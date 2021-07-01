@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Alfa;
+  src: url('./assets/font/AlfaSlabOne-Regular.ttf')
+  
+}
+
+@font-face {
+  font-family: Russo;
+  src: url('./assets/font/RussoOne-Regular.ttf')
+}
+
+.App {
+  text-align: center;
+}
+
+
+body {
+  -webkit-text-stroke: 1px black;
+  font-family: Russo;
+  text-align: center;
+  background-image: url('./assets/images/covidmap.png');
+  background-repeat: repeat;
+  color: #DCF5F1;
+}
+
+.App .header {
+  margin-top: 20em;
+}
+
+.App .dropDownSection .select {
+  font-family: Alfa;
+  -webkit-text-stroke: 0px black;
+}
+
+.App .dropDownSection .select {
+  /* background-color: green; */
+  padding: 15px;
+  background-color: #DCF5F1;
+  border-radius: 0px 0px 16px 16px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+  overflow: scroll;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.App .dropDownSection:hover *{
+  /* background-color: green; */
+  transition:200ms;
+  transform: scale(1.01);
+}
+
+.App .dropDownSection .go {
+  margin-left: 10px;
+  border-radius: 100%;
+  /* background-image: url("./assets/images/refresh.png"); */
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  outline: none;
+}
+
+.App .dropDownSection .go:hover {
+  transition:400ms;
+  transform: scale(1.25);
+      
+}
