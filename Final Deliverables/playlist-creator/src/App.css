@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+
+.login{
+  text-align: center;
+  margin:10%
+}
+
+
+.author{
+  font-weight:bold;
+  font-size: 20px;
+  font-family:"Josefin Sans";
+
+}
+
+.title{
+  font-weight:bold;
+  font-size: 50px;
+  font-family:"Josefin Sans";
+}
+
+.image{
+  width:20%;
+  height:20%;
+}
+

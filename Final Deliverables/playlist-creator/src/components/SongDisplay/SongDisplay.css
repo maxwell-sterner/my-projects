@@ -1,0 +1,35 @@
+#backButton{
+    margin-right: 5%;
+    margin-top: 20px;
+    flex-grow:1;
+   
+}
+
+.playlistHead{
+    margin: 50px 20% 0px 20%;
+    font-size:70px;
+    color:white;
+    border-radius:10px;
+    border: 3px solid white;
+    background-image: url("https://i.redd.it/3t88melm5eb01.jpg");
+}
+
+.dropdown{
+  margin-left: 3%;
+  flex-grow:1;
+  margin-top: 13px;
+}
+
+.topSection{
+  
+    display:flex;
+    
+    align-items: center;
+}
+
+@media (max-width:768px){
+	.playlistHead{
+    font-size:40px;
+  }
+  
+}

@@ -1,0 +1,10 @@
+.close{
+    margin-right: 10px;
+}
+
+.playlistDelete{
+    background: white;
+    border-radius:10px;
+    margin-left: 25%;
+    margin-right:25%;
+}
