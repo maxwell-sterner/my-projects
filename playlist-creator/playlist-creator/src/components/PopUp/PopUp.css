@@ -1,0 +1,27 @@
+select{
+    height: 37px;
+    border-radius: 10px;
+}
+
+select:hover{
+    transition:200ms;
+    transform: scale(1.01);
+}
+
+.error{
+    color:red;
+}
+
+Button{
+    margin:5px;
+}
+select{
+    margin:5px;
+}
+input{
+    border-radius: 10px;
+}
+
+.warning{
+    font-size:8px;
+}
