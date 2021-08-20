@@ -6,8 +6,8 @@ including a user-friendly interface, styling, and fetch calls to the Spotify Mus
 # To Run:
 My react app folder is labelled “playlist-creator” and my server is called
 “server.js”. The other files in the folder must be included to access the Spotify server
-(client_credentials, etc). Both the Finals Deliverables folder and the playlist-creator folder need
-a node_modules. To run, cd to “Final Deliverables” folder and node server.js/npm start
+(client_credentials, etc). Both the playlist-creator folder and the playlist-creator folder need
+a node_modules. To run, cd to the “playlist-creator” folder and node server.js/npm start
 playlist-creator. My application uses a Spotify login so you need an account on Spotify. My
 project works like Spotify or Apple Music’s application where you search up a song, then have
 the ability to add it to a playlist or create a new playlist. The playlists are then viewable from the
